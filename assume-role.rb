@@ -2,8 +2,8 @@ require 'formula'
 
 class AssumeRole < Formula
   homepage 'https://github.com/coinbase/assume-role'
-  url 'https://github.com/coinbase/assume-role/archive/v0.1.2.tar.gz'
-  sha256 '3d8b4577e7baecd508066d39d2019c8f0451a8d36c6d743e5982e131b0bdad96'
+  url 'https://github.com/coinbase/assume-role/archive/v0.1.3.tar.gz'
+  sha256 '6c214b17408c705e7a897247eb4e054587b5e4785e76541dc981024c04da7bd8'
 
   def install
     bin.install File.join('.', 'assume-role')
