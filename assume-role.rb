@@ -2,8 +2,8 @@ require 'formula'
 
 class AssumeRole < Formula
   homepage 'https://github.com/coinbase/assume-role'
-  url 'https://github.com/coinbase/assume-role/archive/v0.1.4.tar.gz'
-  sha256 '44ac588eff97bd0923918861adc5aab5b1d0b7e01a5da65e01cc73da71c47a76'
+  url 'https://github.com/coinbase/assume-role/archive/v0.1.5.tar.gz'
+  sha256 'c1faf4b0771ba221da0d487cab57fc2c206578f60460d074c98bc6f0d1733a08'
 
   depends_on "awscli"
   depends_on "jq"
